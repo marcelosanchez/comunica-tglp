@@ -1,0 +1,278 @@
+/*GENERAL*/
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: #08284e;
+	font-family: Helvetica, "Calibri", Verdana;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-bottom: -18px; /*FIX*/
+}
+ul {
+	list-style-type: none;
+}/*EO GENERAL*/
+
+/*SLIDER*/
+#slide_container {
+	background: inherit;	/*border: 1px solid red;*/
+	width: 100%;
+	height: 416px;
+	position: relative;	/*background: url("images/comercio-banner.jpg") no-repeat center;*/
+}/*EO SLIDER*/
+
+/*NEED TO BE ORGANIZATED*/
+
+.notices_header {
+	padding: 10px 0;
+	margin: 0 10px 10px;
+	border-bottom: 1px solid white;
+	font-size: 18px;
+}
+.middle td {
+	vertical-align: top;
+}
+#rrhh {
+	vertical-align: top;
+}
+.regulations {
+	vertical-align: top;
+}
+.regulations ul {
+	margin: 0;
+	padding-left: 0;
+}
+.regulations li {
+	vertical-align: top;
+	padding: 15px 0;
+	border-bottom: 1px solid #3f5773;
+}/*EO NEED TO BE ORGANIZATED*/
+
+/*PRINCIPAL*/
+#principal {
+	width: 100%;
+	height: 490px;
+	background: #08284e;
+	color: #fff;
+}
+#principal table {
+	margin: 0 auto;
+	top: -35px;
+	position: relative;
+}
+#principal td {
+	height: 348px;
+	width: 256px;
+	vertical-align: top;	/*border:1px solid white;*/
+}
+.navigation_principal {
+	height: 0px;
+	position: relative;
+	top: 51px;
+	left: -18px;
+	text-align: right;
+}
+.section_h {
+	margin: 0 10px 10px;
+	border-bottom: 1px solid #fff;
+	font-size: 16px;
+}
+.section_h p {
+	margin: 0;
+}
+.subtitle_h {
+	font-weight: 100;
+	padding-bottom: 6px;
+}
+#principal .title_h {
+	font-weight: 600;
+	padding-bottom: 17px;
+}
+.description {
+	padding: 13px 10px;
+	font-size: 14px;
+	height: 198px;
+}
+.description ul {
+	margin: 0;
+	padding-left: 0;
+}
+.description li {
+	vertical-align: top;
+	padding: 15px;
+	font-size: 14px;
+	border-bottom: 1px solid #3f5773;
+	text-transform: uppercase;
+}
+.description li:hover {
+	cursor: pointer;
+}
+.description img {
+	cursor: pointer;
+	height: 18px;
+	float: right;
+}
+.actions_btns {
+	padding: 13px 10px;
+}
+.send_btn {
+	padding: 12px 17px;
+	background: #fff;
+	border: none;
+	border-radius: 7px;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #00a0e0;
+	border: 1px solid #000833;
+}
+.send_btn:hover {
+	cursor: pointer;
+}
+
+/*EO PRINCIPAL*/
+#company_news {
+	width: 100%;	/*height: 768px;*/
+	background: #fff;
+	border-radius: 50% 50% 0 0;
+	padding: 0 650px;
+	position: relative;
+	left: -650px;
+}
+#company_news table {
+	margin: 0 auto;
+}
+#company_news td {
+	height: 348px;
+	width: 256px;
+	vertical-align: top;	/*border:1px solid lightgray;*/
+	/*LINES*/
+}
+#company_news .section_h {
+	color: #fc2420;
+	margin-top: 14px;
+	font-weight: 600;
+}
+#corporative_img img {
+	float: left;
+	padding-left: 13px;
+}
+#corporative_info {
+}
+#corporative_info p {
+	margin: 0;
+	padding: 0;
+}
+#coporative_info .section_h, .information_cont {
+	font-size: 17px;
+}
+#shortInfo {
+	text-align: left;
+	width: 235px;
+}
+#shortInfo th {
+	height: 35px;
+	padding-left: 7px;
+	font-size: 14px;
+	color: #fff;
+	background: #ff4546;
+}
+#shortInfo td {
+	height: 55px;
+	padding-left: 7px;
+	font-size: 11px;
+	margin: 0;
+	background: #d8e0e2;
+}
+#shortInfo td p {
+	text-transform: uppercase;
+	color: #00055f;
+	margin-bottom: 2px;
+	margin-top: 10px;
+}
+#shortInfo td span {
+	margin-top: 0;
+	color: #ff4649;
+}
+.nationals {
+	padding: 13px 10px;
+	font-size: 12px;
+	height: 198px;
+	color: #767676;
+}
+.nationals ul {
+	margin: 0;
+	padding-left: 0;
+}
+.nationals li {
+	vertical-align: top;
+	padding: 5px 0;
+	font-size: 14px;
+	border-bottom: 1px solid #def0fe;
+}
+.nationals li:hover {
+	cursor: pointer;
+}
+.nationals img {
+	cursor: pointer;
+	height: 18px;
+	float: right;
+	position: relative;
+	top: -8px;
+}
+#gallery {
+	margin: 0;
+	padding: 0;
+	height: 255px;
+	width: 735px;
+	vertical-align: baseline;
+	margin-left: 25px;	/*background: green;*/
+}
+.gallery_album {
+	margin: 0;
+	padding: 0;
+	height: 255px;
+	width: 242px;
+	display: inline-block;
+	margin-left: -2px;
+}
+.gallery_bottom {
+	position: relative;
+	bottom: 0;
+	height: 0;
+	width: 0;
+}
+#gallery_info {
+	height: 54px;
+	width: 243px;
+	position: relative;
+	top: -59px;
+	background: rgba(0, 0, 0, 0.5);
+}
+#gallery_info table {
+	height: 53px;
+	padding-top: 2px;
+	margin-left: 5px;
+}
+#gallery_info td {
+	height: 20px;
+	color: white;
+	vertical-align: middle;
+}
+.navigation_company_news {
+	height: 0px;
+	position: relative;
+	top: 17px;
+	text-align: right;
+}
+.information_cont {
+	margin: 0 10px 10px;
+	color: #00085c;
+	padding-top: 60px;
+}
+.information_cont .title_h {
+	font-weight: 600;
+}
+.information_cont .detail {
+	color: #767676;
+	font-size: 14px;
+}

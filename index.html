@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tagaropulos - Home</title>
+
+	<script type"text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./css/home.css">
+</head>
+<body>
+
+<style>
+/*NECESARY HERE*/
+#slide_inside_image {
+	width: 100%;
+	height: 416px;
+	border-radius: 0 0 50% 50%;
+	padding: 0px 650px;
+	position: relative;
+	left: -650px;
+	top: -416px;
+	background: transparent url("images/comercio-banner-big.jpg") 50% 100% scroll no-repeat;	/*border:1px solid green;*/
+	/*background-size: 1350px;*/
+	/*background: #e5e6e1;*/
+	/*background-image: url(images/comercio-banner.jpg);*/
+}
+
+
+</style>
+	<!-- HEADER -->
+	<div style="width: calc(100% - 100px); height: 44px;padding: 14px 50px;background:#fff;">
+		<!-- LOGO -->
+		<div style="float:left; height:36px; width:230px; margin: 4px 0;/*background: blue;*/">
+			<img src="./images/logo-header.png" alt="logo" height="34">
+		</div> <!-- //EO LOGO -->
+		<!-- Botonera -->
+		<div style="float:right; height:27px; width:285px; margin: 8px 0;/*background:gray;*/">
+			<!-- Header Buttons -->
+			<ul style="margin: 4px 0; padding: 0;">
+				<li style="display: block; float: left; margin-right:40px; cursor:pointer;">
+					<img src="./images/icon-clock.png" alt="">
+				</li>
+				<li style="display: block; float: left; margin-right:40px; cursor:pointer;">
+					<img  src="./images/icon-multi.png" alt="">
+				</li>
+				<li style="display: block; float: left; margin-right:40px; cursor:pointer;">
+					<img src="./images/icon-phonebook.png" alt="">
+				</li>
+				<li style="display: block; float: left; margin-right:40px; cursor:pointer;">
+					<img src="./images/icon-search.png" alt="">
+				</li>
+			</ul><!-- //EO Header Buttons -->
+
+			<!-- Drawer -->
+			<div style="float:right; cursor:pointer;margin: -4px 0;">
+				<img src="./images/icon-drawer.png" alt="drawer" height="27">
+			</div><!-- //EO Drawer -->
+		</div><!-- //EO Botonera -->
+	</div> <!-- //EO HEADER -->
+	
+	<!-- SLIDER -->
+	<div style="height: 416px;">
+		<div id="slide_container" style=""></div>
+		<div id="slide_inside_image" style=""></div>
+	</div><!-- //EO SLIDER -->
+	
+	<!-- Images Options -->
+	<div style="width: 525px; height:0px; margin:0 auto; position: relative;top: -70px; /*background:gray;*/">
+		<ul style="margin: 4px 0; padding: 0;">
+			<li style="height:120px; width:120px; display: block; float: left; margin-right:15px; cursor:pointer; border-radius:50%;">
+				<img src="./images/truck-banner.jpg" alt="" style="border-radius: 50%;height: 111px;width: 111px;border: 5px solid #3baaf5;box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);">
+			</li>
+			<li style="height:120px; width:120px; display: block; float: left; margin-right:15px; cursor:pointer; border-radius:50%;">
+				<img src="./images/warehouse-banner.jpg" alt="" style="border-radius: 50%;height: 111px;width: 111px;border: 5px solid #3baaf5;box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);">
+			</li>
+			<li style="height:120px; width:120px; display: block; float: left; margin-right:15px; cursor:pointer; border-radius:50%;">
+				<img src="./images/bigcar-banner.jpg" alt="" style="border-radius: 50%;height: 111px;width: 111px;border: 5px solid #3baaf5;box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);">
+			</li>
+			<li style="height:120px; width:120px; display: block; float: left; margin-right:0px; cursor:pointer; border-radius:50%;">
+				<img src="./images/workers-banner.jpg" alt="" style="border-radius: 50%;height: 111px;width: 111px;border: 5px solid #3baaf5;box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);">
+			</li>
+		</ul><!-- //EO Header Buttons --> 
+		<!-- WIDGET -->
+		<div style="height:283px; width:237px; position: relative; top: -316px;left: -230px;">
+			<div style="display: block;height:200px; width:100%; background: url('./images/widget-porcentage-container.png');">
+				<img src="./images/porcentage-cake.png" alt="" style="height: 160px;border-radius:50%; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);margin: 20px 40px;position: relative;top: -120px;">
+			</div>
+			<div style="display: block;height: 50px; width: calc(100% - 60px); background:white; padding: 16px 30px; color:#fe2122;">
+				<p style="margin:0; margin-bottom: -2px; font-size: 20px; font-weight:600;">Lorem ipsum</p>
+				<p style="margin:0; margin-bottom:20px; font-size:11px;">Dolor sit amet, consectetur.</p>
+			</div>
+			<div style="height: 60px; width: 400px;padding: 10px 17px;border: 1px solid black;background: rgba(0, 0, 0, 0.8); position: relative;top: -82px;left: 237px;color:white; font-size:14px;">
+				Nam elementum sodales nibh, vel euismod libero. <br>
+				Vivamus pulvinar velit in vierra ullacorper. Mauris tincidunt, tortor eu vestibulum sagittis, odio arcu cosequat justo.
+			</div>
+		</div><!-- //EO WIDGET -->
+	</div>
+	
+	<!-- PRINCIPAL -->
+	<div id="principal">
+		<table>
+			<tr>
+				<td>
+					<div class="navigation_principal">
+						<!-- <img src="./images/arrow-prev-white-fill.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;"> -->
+						<img src="./images/arrow-next-white-fill.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+					</div>
+					<div class="section_h">
+						<p class="subtitle_h">Nuestros Valores</p>
+						<p class="title_h">Respeto</p>
+					</div>
+					<div class="description">
+						Aliquam maximus ante eu consectetu pulvinar Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maecenas viverra magna eget purus ultrices molestie. Vestibulum enim mi, ullamc a bibendum vel, scelerisque facillis nibh. Vestibulum vel risus mollis, acuman mauris egestas, condityhe mentum felis.
+					</div>
+					<div class="actions_btns">
+						<button class="send_btn">
+							Nomina a tu Candidato
+						</button><br>
+					</div>
+				</td>
+				<td>
+					<div class="navigation_principal">
+						<img src="./images/arrow-prev-white-fill.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+						<img src="./images/arrow-next-white-fill.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+					</div>
+					<div class="section_h">
+						<p class="subtitle_h">Vacantes de Trabajo</p>
+						<p class="title_h">Director de Bodega</p>
+					</div>
+					<div class="description">
+						Aliquam maximus ante eu consectetu pulvinar Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maecenas viverra magna eget purus ultrices molestie. Vestibulum enim mi, ullamc a bibendum vel, scelerisque facillis nibh. Vestibulum vel risus mollis, acuman mauris egestas, condityhe mentum felis.
+					</div>
+					<div class="actions_btns">
+						<button class="send_btn">
+							Enviar Curriculum
+						</button><br>
+					</div>
+				</td>
+				<td>
+					<!-- <div class="navigation_principal">
+						<img src="./images/arrow-prev-white-fill.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+						<img src="./images/arrow-next-white-fill.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+					</div> -->
+					<div class="section_h">
+						<p class="subtitle_h">Recursos Humanos</p>
+						<p class="title_h">Solicitudes</p>
+					</div>
+					<div class="description">
+						<ul>
+							<li>
+								Carta de trabajo
+								<img src="./images/icon-expand-white.png" alt="">
+							</li>
+							<li>
+								Vacaciones
+								<img src="./images/icon-expand-white.png" alt="">
+							</li>
+							<li>
+								Solicitud de permiso
+								<img src="./images/icon-expand-white.png" alt="">
+							</li>
+						</ul>
+					</div>
+					<div class="actions_btns">
+						<!-- <button class="send_btn">
+							Enviar Curriculum
+						</button><br> -->
+					</div>
+				</td>
+				<td>
+					<!-- <div class="navigation_principal">
+						<img src="./images/arrow-prev-white-fill.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+						<img src="./images/arrow-next-white-fill.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+					</div> -->
+					<div class="section_h">
+						<p class="subtitle_h">Nuestra forma de Laborar</p>
+						<p class="title_h">Regulaciones</p>
+					</div>
+					<div class="description">
+						<ul>
+							<li>
+								Procedimientos
+								<img src="./images/icon-expand-white.png" alt="">
+							</li>
+							<li>
+								Normas
+								<img src="./images/icon-expand-white.png" alt="">
+							</li>
+						</ul>
+					</div>
+					<div class="actions_btns">
+						<!-- <button class="send_btn">
+							Enviar Curriculum
+						</button><br> -->
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div><!-- //EO PRINCIPAL -->
+
+	<div id="company_news" style="">
+		<div style="padding-top: 75px; padding-bottom:25px;">
+			<!-- TABLE -->
+			<table>
+				<tr>
+					<td>
+						<div class="navigation_company_news">
+							<img src="./images/arrow-prev-blue.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+							<img src="./images/arrow-next-blue.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+						</div>
+						<div id="corporative_info">
+							<div class="section_h">
+								<p class="subtitle_h">Feliz</p>
+								<p class="title_h">Cumpleaños</p>
+							</div>
+							<div class="information_cont">
+								<p class="title_h">Sandra Iturralde</p>
+								<p class="subtitle_h">Directora de Mercadeo</p>
+								<p class="detail">Nulla velit dolor, congue ut bibendum et, trinsique ac ligula. Nulla convalis mentus et lectus gravida, set vuluptate tellus vuluptate.</p>
+							</div>
+						</div>
+						<br>
+					</td>
+					<td id="corporative_img">
+						<img src="./images/corporative_img.png" alt="" height="308">
+						<br>
+					</td>
+					<td>
+						<table id="shortInfo">
+							<tr>
+								<th>
+								Nuevos Ingresos
+								</th>
+							</tr>
+							<tr>
+								<td>
+									<p>Carla Arrosemena</p>
+									<span>Finanzas</span> <br>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Rodrigo Paredes</p>
+									<span>Distribucion</span> <br>
+								</td>
+							</tr>
+							<tr>
+								<th>
+									Aniversarios
+								</th>
+							</tr>
+							<tr>
+								<td>
+									<p>Carla Arrosemena</p>
+									<span>Finanzas</span> <br>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Rodrigo Paredes</p>
+									<span>Distribucion</span> <br>
+								</td>
+							</tr>
+						</table>
+						<br>
+					</td>
+					<td>
+						<div class="navigation_company_news">
+							<img src="./images/arrow-prev-blue.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+							<img src="./images/arrow-next-blue.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+						</div>
+						<div id="corporative_info">
+							<div class="section_h">
+								<p class="subtitle_h">Nuestras</p>
+								<p class="title_h">Marcas</p>
+							</div>
+							<div class="information_cont" style="padding-top:10px;">
+								<img src="./images/logo-marca.png" alt="" height="75" style="margin:0 auto;">
+								<p class="detail" style="padding-top:5px;">Barilla viverra magna eget purus utrices molestie. Vestibulum enim &nbsp; &nbsp; mi, ullamcorper a bibendum vel, scelerisque facilisis nibh viverra magna eget purus ultrices lestie.</p>
+							</div>
+						</div>
+						<br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="navigation_company_news">
+							<img src="./images/arrow-prev-blue.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+							<img src="./images/arrow-next-blue.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+						</div>
+						<div id="corporative_info">
+							<div class="section_h">
+								<p class="subtitle_h">Noticias</p>
+								<p class="title_h">Nacionales</p>
+							</div>
+							<div class="nationals">
+								<ul>
+									<li>
+										Etiam elefend consequat por proin eu tellus vel augue facil
+										<img src="./images/icon-expand-blue.png" alt="">
+									</li>
+									<li>
+										Etiam elefend consequat por proin eu tellus vel augue facil
+										<img src="./images/icon-expand-blue.png" alt="">
+									</li>
+									<li>
+										Etiam elefend consequat por proin eu tellus vel augue facil
+										<img src="./images/icon-expand-blue.png" alt="">
+									</li>
+									<li>
+										Etiam elefend consequat por proin eu tellus vel augue facil
+										<img src="./images/icon-expand-blue.png" alt="">
+									</li>
+								</ul>
+							</div>
+						</div>
+						<br>
+					</td>
+					<td style="width:768px;" colspan="3">
+						<div class="navigation_company_news" style="left: -525px; top:4px;">
+							<img src="./images/arrow-prev-blue.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+							<img src="./images/arrow-next-blue.png" alt="" height="40" style="border-radius: 50%; cursor:pointer;">
+						</div>
+						<div class="section_h">
+							<span class="subtitle_h">Galeria de</span>
+							<span class="title_h">Eventos</span>
+						</div>
+						<!-- 242x255 726 -->
+						<div id="gallery">
+							<div class="gallery_album" style="/*background:yellow;*/">
+								<img src="./images/g1.jpg" alt="gallery" height="255">
+								<div class="gallery_bottom">
+									<div id="gallery_info">
+										<table>
+										  <tr>
+										    <td><b>Convención</b><br></td>
+										    <td rowspan="2"><a href="" style="padding-left: 50px; color:#0a9dc5; text-decoration:none;">Ver Fotos</a><br></td>
+										  </tr>
+										  <tr>
+										    <td>Food Supply Chain</td>
+										  </tr>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="gallery_album" style="/*background:blue;*/">
+								<img src="./images/g2.jpg" alt="gallery" height="255">
+								<div class="gallery_bottom">
+									<div id="gallery_info">
+										<table>
+										  <tr>
+										    <td><b>Gala</b><br></td>
+										    <td rowspan="2"><a href="" style="padding-left: 50px; color:#0a9dc5; text-decoration:none;">Ver Fotos</a><br></td>
+										  </tr>
+										  <tr>
+										    <td>Beneficio FanLi</td>
+										  </tr>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="gallery_album" style="/*background:red;*/">
+								<img src="./images/g3.jpg" alt="gallery" height="255">
+								<div class="gallery_bottom">
+									<div id="gallery_info">
+										<table>
+										  <tr>
+										    <td><b>Taller de Cuerdas</b><br></td>
+										    <td rowspan="2"><a href="" style="padding-left: 50px; color:#0a9dc5; text-decoration:none;">Ver Fotos</a><br></td>
+										  </tr>
+										  <tr>
+										    <td>Cerro Blanco</td>
+										  </tr>
+										</table>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</td>
+				</tr>
+			</table><!-- //EO TABLE -->
+		</div>
+	</div>
+
+	<div id="footer" style="width:100%; height: 12px;background:#ff4546; color:white; font-size: 13px; font-weight:bolder;text-align: center;padding: 22px 0px;">Tagaropulos 2015 - Todos los derechos reservados</div>
+
+<script type="text/javascript">
+function bannerFixSize() {
+	$("#slide_inside_image").css("width", $("#footer").width() - 1 + "px");
+	$("#slide_inside_image").css("background-size", $("#footer").width());
+}
+
+function navigationBlueFixPosition() {
+	$(".pagination_blue").css("left", $(".notices_header").width() - 90); //Reposiciona las guias
+}
+
+$(window).resize(function() {
+	bannerFixSize();
+	navigationBlueFixPosition();
+});
+
+$(document).ready(function() {
+	bannerFixSize();
+	navigationBlueFixPosition();
+});
+</script>
+
+</body>
+</html>
